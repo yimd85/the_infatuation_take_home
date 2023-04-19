@@ -19,7 +19,7 @@
 - The auto complete will make suggestions based on the search string. The suggestions are response payloads from the github api. 
 - Click on the repo that you like and using the add button to the right will add to the repo to the list component below. 
 - The list component allows sorting. Except for the last column. 
-- The last column, should data exist is reserved for deletion.
+- The last column, should data rows exist, is reserved for deletion.
 - If at any point the page is refreshed, the list that we have so far is persisted.
 - If at any point we decide to add duplicates, the backend will error. As a quick mean to handle errors, an alert will present itself to the user.
 - Basic unit tests were added.
