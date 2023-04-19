@@ -2,7 +2,7 @@
 
 - ensure docker is running and ensure ports 8080 and 3000 are free.
 - start up the backend: `docker run -p 8080:8080 gcr.io/hiring-278615/reposerver:v1.1`
-- clone down the frontend repo: `placeholder`
+- clone down the frontend repo: `git clone git@github.com:yimd85/the_infatuation_take_home.git`
 - build the image and run the frontend: `docker build . -t frontend-takehome && docker run -p 3000:3000 -d frontend-takehome`. 
 - on a browser go to: `http://localhost:3000/`
 
