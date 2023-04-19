@@ -1,0 +1,16 @@
+.label {
+    display: flex;
+    width: 100%;
+
+    justify-content: space-between;
+}
+
+.label > p {
+    margin: 0;
+}
+
+.searchParent {
+    display: grid;
+    grid-template-columns: auto 50px;
+    gap: 10px;
+}
