@@ -18,10 +18,6 @@ const Search = (props: ISearch) => {
             if (inputValue) {
                 fetch(githubURL, {
                     method: "GET",
-                    headers: {
-                        Authorization:
-                            "bearer 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",
-                    },
                 })
                     .then((res) => res.json())
                     .then((data) => {
